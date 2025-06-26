@@ -1,0 +1,31 @@
+{
+  "version": 3,
+  "warnings": [
+    {
+      "code": "V6021",
+      "cwe": 563,
+      "sastId": "CERT-MSC56-J",
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\Users\\NkDn\\javaProject\\GraphColoring\\src\\main\\java\\edu\\spbstu\\App.java",
+          "line": 76,
+          "endLine": 76,
+          "column": 29,
+          "endColumn": 34,
+          "navigation": {
+            "previousLine": 93420629,
+            "currentLine": -592591993,
+            "nextLine": -1230679454,
+            "columns": 0
+          }
+        }
+      ],
+      "message": "The value is assigned to the \u0027output\u0027 variable but is not used.",
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false,
+      "analyzedSourceFiles": []
+    }
+  ]
+}
